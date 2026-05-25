@@ -1,0 +1,1844 @@
+{
+  "version": "0.7",
+  "cpt": "97535",
+  "category": "BATHING/SHOWERING",
+  "count": 48,
+  "presets": [
+    {
+      "preset_id": "bathing_showering__analysis_of_movement_during_bathing__ue_washing_and_shoulder_flexion",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Analysis of movement during bathing",
+        "specific_focus": "UE Washing & Shoulder Flexion"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "UE Washing & Shoulder Flexion",
+        "intervention_type": "Analysis of movement during bathing",
+        "goal": "shoulder flexion for hair washing and bilateral coordination for soap application",
+        "deficit": "Impaired bilateral coordination and decreased shoulder flexion ROM",
+        "assists": [],
+        "cues": [
+          {
+            "level": "min",
+            "type": "verbal",
+            "kind": "cue"
+          },
+          {
+            "type": "visual",
+            "kind": "demonstration"
+          }
+        ],
+        "progress": "Patient progressed to completing the bathing sequence with min verbal cues by session end",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__analysis_of_movement_during_bathing__trunk_rotation_for_back_washing",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Analysis of movement during bathing",
+        "specific_focus": "Trunk Rotation for Back Washing"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Trunk Rotation for Back Washing",
+        "intervention_type": "Analysis of movement during bathing",
+        "goal": "movement control for hard-to-reach areas",
+        "deficit": "Limited trunk mobility and decreased standing balance",
+        "assists": [
+          {
+            "level": "min physical assist",
+            "site": "trunk",
+            "action": "trunk rotation for back washing",
+            "purpose": "compensate for limited lumbar mobility",
+            "percent": 25
+          }
+        ],
+        "cues": [
+          {
+            "level": "mod",
+            "type": "tactile",
+            "kind": "cue"
+          }
+        ],
+        "progress": "Patient's need for assistance decreased to verbal prompts for back washing",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__analysis_of_movement_during_bathing__le_movement_for_foot_care",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Analysis of movement during bathing",
+        "specific_focus": "LE Movement for Foot Care"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "LE Movement for Foot Care",
+        "intervention_type": "Analysis of movement during bathing",
+        "goal": "proper positioning and balance maintenance to address movement limitations",
+        "deficit": "Decreased hip flexion and poor dynamic balance",
+        "assists": [
+          {
+            "level": "CGA",
+            "site": "LE",
+            "action": "hip flexion for foot reach",
+            "purpose": "ensure safety"
+          }
+        ],
+        "cues": [
+          {
+            "level": "frequent",
+            "type": "verbal",
+            "kind": "prompt"
+          }
+        ],
+        "progress": "Patient's ability to complete foot washing improved, requiring only frequent verbal prompts by session end",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__analysis_of_sequencing_during_bathing_activities__shower_routine_sequencing_and_organization",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Analysis of sequencing during bathing activities",
+        "specific_focus": "Shower Routine Sequencing & Organization"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Shower Routine Sequencing & Organization",
+        "intervention_type": "Analysis of sequencing during bathing activities",
+        "goal": "a systematic approach including prep, top-to-bottom washing, and rest breaks",
+        "deficit": "Executive function deficits and working memory limitations",
+        "assists": [],
+        "cues": [
+          {
+            "level": "mod",
+            "type": "verbal",
+            "kind": "cue"
+          }
+        ],
+        "progress": "Patient's required cues for completing the sequence reduced to minimal prompts",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__analysis_of_sequencing_during_bathing_activities__post_bathing_sequence_and_drying",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Analysis of sequencing during bathing activities",
+        "specific_focus": "Post-Bathing Sequence & Drying"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Post-Bathing Sequence & Drying",
+        "intervention_type": "Analysis of sequencing during bathing activities",
+        "goal": "logical task progression to maximize energy efficiency and safety",
+        "deficit": "Task initiation difficulties and attention deficits",
+        "assists": [],
+        "cues": [
+          {
+            "level": "min",
+            "type": "verbal",
+            "kind": "prompt"
+          },
+          {
+            "type": "visual",
+            "kind": "cue"
+          }
+        ],
+        "progress": "Patient's performance in the drying routine improved to requiring only visual cues",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__analysis_of_sequencing_during_bathing_activities__pre_shower_prep_and_environment_setup",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Analysis of sequencing during bathing activities",
+        "specific_focus": "Pre-Shower Prep & Environment Setup"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Pre-Shower Prep & Environment Setup",
+        "intervention_type": "Analysis of sequencing during bathing activities",
+        "goal": "supply organization, temperature adjustment, and safety protocols",
+        "deficit": "Impaired planning and safety awareness",
+        "assists": [],
+        "cues": [
+          {
+            "level": "frequent",
+            "type": "verbal",
+            "kind": "reminder"
+          },
+          {
+            "type": "demonstration",
+            "purpose": "setup procedures"
+          }
+        ],
+        "progress": "Patient progressed to completing setup with frequent verbal reminders by close of session",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__analysis_training_cueing_hierarchy_to_increase_bathing_performance__cueing_hierarchy_for_self_initiation",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Analysis/training cueing hierarchy to increase bathing performance",
+        "specific_focus": "Cueing Hierarchy for Self-Initiation"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Cueing Hierarchy for Self-Initiation",
+        "intervention_type": "Analysis/training cueing hierarchy to increase bathing performance",
+        "goal": "responses to various cueing levels for task initiation and sequencing",
+        "deficit": "Decreased task initiation and processing speed",
+        "assists": [],
+        "cues": [
+          {
+            "level": "graded",
+            "type": "verbal",
+            "kind": "cue"
+          },
+          {
+            "type": "environmental",
+            "subtype": "mods"
+          }
+        ],
+        "progress": "Patient's required assistance for the routine decreased to minimal verbal cues",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__analysis_training_cueing_hierarchy_to_increase_bathing_performance__tactile_and_visual_cues_for_safety",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Analysis/training cueing hierarchy to increase bathing performance",
+        "specific_focus": "Tactile & Visual Cues for Safety"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Tactile & Visual Cues for Safety",
+        "intervention_type": "Analysis/training cueing hierarchy to increase bathing performance",
+        "goal": "graduated cueing reduction",
+        "deficit": "Impaired body awareness and decreased safety judgment",
+        "assists": [],
+        "cues": [
+          {
+            "level": "mod",
+            "type": "tactile",
+            "kind": "cue"
+          },
+          {
+            "type": "visual",
+            "kind": "demonstration"
+          }
+        ],
+        "progress": "Patient's ability to complete bathing safely improved, progressing to requiring only visual demonstrations",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__analysis_training_cueing_hierarchy_to_increase_bathing_performance__physical_assistance_to_verbal_cues",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Analysis/training cueing hierarchy to increase bathing performance",
+        "specific_focus": "Physical Assistance to Verbal Cues"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Physical Assistance to Verbal Cues",
+        "intervention_type": "Analysis/training cueing hierarchy to increase bathing performance",
+        "goal": "recognizing appropriate cueing levels",
+        "deficit": "Significant balance deficits and cognitive impairments",
+        "assists": [],
+        "cues": [
+          {
+            "level": "min",
+            "type": "verbal",
+            "kind": "cue"
+          }
+        ],
+        "progress": "Patient's need for assistance decreased from moderate physical assist to min verbal cues",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__compensatory_techniques_for_bathing__energy_conservation_and_pacing",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Compensatory techniques for bathing",
+        "specific_focus": "Energy Conservation & Pacing"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Energy Conservation & Pacing",
+        "intervention_type": "Compensatory techniques for bathing",
+        "goal": "seated bathing and pacing strategies",
+        "deficit": "Decreased aerobic endurance and fatigue intolerance",
+        "assists": [],
+        "cues": [
+          {
+            "level": "min",
+            "type": "verbal",
+            "kind": "cue"
+          },
+          {
+            "type": "visual",
+            "kind": "reminder"
+          }
+        ],
+        "progress": "Patient demonstrated improved energy management, progressing to requiring only visual reminders",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__compensatory_techniques_for_bathing__one_handed_washing_for_hemiparesis",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Compensatory techniques for bathing",
+        "specific_focus": "One-Handed Washing for Hemiparesis"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "One-Handed Washing for Hemiparesis",
+        "intervention_type": "Compensatory techniques for bathing",
+        "goal": "alternative methods for hair and body washing",
+        "deficit": "Left hemiparesis and decreased UE function",
+        "assists": [],
+        "cues": [
+          {
+            "level": "mod",
+            "type": "tactile",
+            "kind": "guidance"
+          },
+          {
+            "type": "demonstration",
+            "purpose": "adaptive techniques"
+          }
+        ],
+        "progress": "Patient learned to complete one-handed bathing, progressing to requiring only mod tactile guidance",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__compensatory_techniques_for_bathing__techniques_for_limited_rom",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Compensatory techniques for bathing",
+        "specific_focus": "Techniques for Limited ROM"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Techniques for Limited ROM",
+        "intervention_type": "Compensatory techniques for bathing",
+        "goal": "modified reaching patterns and tool positioning",
+        "deficit": "Restricted shoulder and trunk mobility",
+        "assists": [],
+        "cues": [
+          {
+            "level": "min",
+            "type": "verbal",
+            "kind": "cue"
+          },
+          {
+            "type": "visual",
+            "kind": "demonstration"
+          }
+        ],
+        "progress": "Patient's ability to complete washing tasks improved, requiring only min verbal cues by session end",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__compensatory_training_to_increase_independence_with_bathing_tasks__managing_controls_with_limited_dexterity",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Compensatory training to increase independence with bathing tasks",
+        "specific_focus": "Managing Controls with Limited Dexterity"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Managing Controls with Limited Dexterity",
+        "intervention_type": "Compensatory training to increase independence with bathing tasks",
+        "goal": "alternative techniques to maximize independence",
+        "deficit": "Decreased grip strength and fine motor coordination",
+        "assists": [],
+        "cues": [
+          {
+            "level": "mod",
+            "type": "tactile",
+            "kind": "guidance"
+          },
+          {
+            "type": "visual",
+            "kind": "cue"
+          }
+        ],
+        "progress": "Patient's ability to manage controls improved, requiring only visual cues by session end",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__compensatory_training_to_increase_independence_with_bathing_tasks__modified_shower_entry_exit_transfers",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Compensatory training to increase independence with bathing tasks",
+        "specific_focus": "Modified Shower Entry/Exit Transfers"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Modified Shower Entry/Exit Transfers",
+        "intervention_type": "Compensatory training to increase independence with bathing tasks",
+        "goal": "safety strategies and positioning for bathroom navigation",
+        "deficit": "Decreased LE strength and balance impairments",
+        "assists": [
+          {
+            "level": "CGA",
+            "site": "BLE",
+            "action": "sit-to-stand transfers",
+            "purpose": "ensure safety"
+          }
+        ],
+        "cues": [
+          {
+            "level": "min",
+            "type": "verbal",
+            "kind": "cue"
+          }
+        ],
+        "progress": "Patient's shower transfers improved, requiring only min verbal cues",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__compensatory_training_to_increase_independence_with_bathing_tasks__adaptive_supply_management",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Compensatory training to increase independence with bathing tasks",
+        "specific_focus": "Adaptive Supply Management"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Adaptive Supply Management",
+        "intervention_type": "Compensatory training to increase independence with bathing tasks",
+        "goal": "organization and accessibility strategies",
+        "deficit": "Decreased reaching ability and organizational deficits",
+        "assists": [],
+        "cues": [
+          {
+            "level": "mod",
+            "type": "verbal",
+            "kind": "prompt"
+          },
+          {
+            "type": "demonstration",
+            "purpose": "supply arrangement"
+          }
+        ],
+        "progress": "Patient's ability to manage supplies improved, requiring only mod verbal prompts",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__energy_conservation_training_during_bathing__pacing_and_rest_breaks",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Energy conservation training during bathing",
+        "specific_focus": "Pacing & Rest Breaks"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Pacing & Rest Breaks",
+        "intervention_type": "Energy conservation training during bathing",
+        "goal": "planned rest breaks and seated bathing",
+        "deficit": "Rapid fatigue and decreased activity tolerance",
+        "assists": [],
+        "cues": [
+          {
+            "level": "frequent",
+            "type": "verbal",
+            "kind": "reminder"
+          },
+          {
+            "type": "visual",
+            "kind": "cue"
+          }
+        ],
+        "progress": "Patient's ability to manage fatigue improved, progressing to requiring only visual cues",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__energy_conservation_training_during_bathing__efficient_movement_and_supply_organization",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Energy conservation training during bathing",
+        "specific_focus": "Efficient Movement & Supply Organization"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Efficient Movement & Supply Organization",
+        "intervention_type": "Energy conservation training during bathing",
+        "goal": "techniques to reduce unnecessary reaching",
+        "deficit": "Poor movement planning and disorganized approach",
+        "assists": [],
+        "cues": [
+          {
+            "level": "min",
+            "type": "verbal",
+            "kind": "cue"
+          },
+          {
+            "type": "demonstration",
+            "purpose": "efficient techniques"
+          }
+        ],
+        "progress": "Patient learned to complete an organized bathing routine, progressing to requiring only min verbal cues",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__energy_conservation_training_during_bathing__early_fatigue_recognition_and_positioning",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Energy conservation training during bathing",
+        "specific_focus": "Early Fatigue Recognition & Positioning"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Early Fatigue Recognition & Positioning",
+        "intervention_type": "Energy conservation training during bathing",
+        "goal": "activity modification and environmental prep",
+        "deficit": "Decreased awareness of fatigue",
+        "assists": [],
+        "cues": [
+          {
+            "type": "verbal",
+            "kind": "education"
+          },
+          {
+            "type": "visual",
+            "kind": "cue"
+          }
+        ],
+        "progress": "Patient's ability to monitor for fatigue improved, requiring only visual cues by session end",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__facilitation_of_functional_reaching_bending_during_bathing__reaching_for_back_and_foot_care",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Facilitation of functional reaching/bending during bathing",
+        "specific_focus": "Reaching for Back & Foot Care"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Reaching for Back & Foot Care",
+        "intervention_type": "Facilitation of functional reaching/bending during bathing",
+        "goal": "improved reaching efficiency via manual guidance",
+        "deficit": "Limited trunk flexibility and decreased balance",
+        "assists": [],
+        "cues": [
+          {
+            "level": "mod",
+            "type": "tactile",
+            "kind": "guidance"
+          },
+          {
+            "type": "verbal",
+            "kind": "cue"
+          }
+        ],
+        "progress": "Patient's ability to complete reaching tasks improved, requiring only verbal cues by session end",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__facilitation_of_functional_reaching_bending_during_bathing__safe_weight_shifting_during_reaching",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Facilitation of functional reaching/bending during bathing",
+        "specific_focus": "Safe Weight Shifting During Reaching"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Safe Weight Shifting During Reaching",
+        "intervention_type": "Facilitation of functional reaching/bending during bathing",
+        "goal": "proper body mechanics for bending",
+        "deficit": "Poor proprioception and balance deficits",
+        "assists": [
+          {
+            "level": "min physical assist",
+            "site": "trunk",
+            "action": "weight shifting during reaching",
+            "purpose": "maintain dynamic balance",
+            "percent": 25
+          }
+        ],
+        "cues": [
+          {
+            "type": "tactile",
+            "kind": "cue"
+          }
+        ],
+        "progress": "Patient's weight shifting improved, requiring only min physical assist",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__facilitation_of_functional_reaching_bending_during_bathing__reaching_for_supply_and_equipment_access",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Facilitation of functional reaching/bending during bathing",
+        "specific_focus": "Reaching for Supply & Equipment Access"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Reaching for Supply & Equipment Access",
+        "intervention_type": "Facilitation of functional reaching/bending during bathing",
+        "goal": "maintaining postural stability",
+        "deficit": "Decreased coordination and spatial awareness",
+        "assists": [],
+        "cues": [
+          {
+            "level": "min",
+            "type": "verbal",
+            "kind": "cue"
+          },
+          {
+            "type": "visual",
+            "kind": "demonstration"
+          }
+        ],
+        "progress": "Patient's ability to access supplies improved, requiring only min verbal cues",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__facilitation_of_planning_skills_to_facilitate_independence_in_bathing_performanc__planning_for_pre_task_preparation",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Facilitation of planning skills to facilitate independence in bathing performance",
+        "specific_focus": "Planning for Pre-Task Preparation"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Planning for Pre-Task Preparation",
+        "intervention_type": "Facilitation of planning skills to facilitate independence in bathing performance",
+        "goal": "supply organization and environmental setup",
+        "deficit": "Executive function deficits and poor organization",
+        "assists": [],
+        "cues": [
+          {
+            "level": "mod",
+            "type": "verbal",
+            "kind": "prompt"
+          },
+          {
+            "type": "visual",
+            "kind": "aid"
+          }
+        ],
+        "progress": "Patient's ability to prepare for bathing improved, requiring only mod verbal prompts by session end",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__facilitation_of_planning_skills_to_facilitate_independence_in_bathing_performanc__cognitive_strategies_for_sequencing",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Facilitation of planning skills to facilitate independence in bathing performance",
+        "specific_focus": "Cognitive Strategies for Sequencing"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Cognitive Strategies for Sequencing",
+        "intervention_type": "Facilitation of planning skills to facilitate independence in bathing performance",
+        "goal": "executive function skills for independent performance",
+        "deficit": "Decreased working memory and attention",
+        "assists": [],
+        "cues": [
+          {
+            "level": "repeated",
+            "type": "verbal",
+            "kind": "cue"
+          },
+          {
+            "type": "visual",
+            "kind": "reminder"
+          }
+        ],
+        "progress": "Patient's need for support to complete the sequence decreased to visual reminders",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__facilitation_of_planning_skills_to_facilitate_independence_in_bathing_performanc__adaptation_for_unexpected_challenges",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Facilitation of planning skills to facilitate independence in bathing performance",
+        "specific_focus": "Adaptation for Unexpected Challenges"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Adaptation for Unexpected Challenges",
+        "intervention_type": "Facilitation of planning skills to facilitate independence in bathing performance",
+        "goal": "flexible problem-solving for unexpected situations",
+        "deficit": "Rigid thinking and decreased problem-solving",
+        "assists": [],
+        "cues": [
+          {
+            "level": "max",
+            "type": "verbal",
+            "kind": "guidance"
+          },
+          {
+            "type": "demonstration",
+            "purpose": "alternative approaches"
+          }
+        ],
+        "progress": "Patient's problem-solving improved, requiring only max verbal guidance by session end",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__initiation_cues_to_facilitate_bathing_skill_performance__environmental_and_verbal_initiation_cues",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Initiation cues to facilitate bathing skill performance",
+        "specific_focus": "Environmental & Verbal Initiation Cues"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Environmental & Verbal Initiation Cues",
+        "intervention_type": "Initiation cues to facilitate bathing skill performance",
+        "goal": "task engagement and routine establishment",
+        "deficit": "Decreased task initiation and apathy",
+        "assists": [],
+        "cues": [
+          {
+            "level": "frequent",
+            "type": "verbal",
+            "kind": "encouragement"
+          },
+          {
+            "type": "environmental",
+            "subtype": "mods"
+          }
+        ],
+        "progress": "Patient's ability to initiate bathing improved, requiring only frequent verbal encouragement",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__initiation_cues_to_facilitate_bathing_skill_performance__visual_cues_for_sequence_initiation",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Initiation cues to facilitate bathing skill performance",
+        "specific_focus": "Visual Cues for Sequence Initiation"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Visual Cues for Sequence Initiation",
+        "intervention_type": "Initiation cues to facilitate bathing skill performance",
+        "goal": "independent task initiation",
+        "deficit": "Poor routine establishment and decreased self-awareness",
+        "assists": [],
+        "cues": [
+          {
+            "level": "min",
+            "type": "verbal",
+            "kind": "reminder"
+          }
+        ],
+        "progress": "Patient's ability to complete the sequence improved, requiring only min verbal reminders",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__initiation_cues_to_facilitate_bathing_skill_performance__internal_motivation_and_self_prompting",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Initiation cues to facilitate bathing skill performance",
+        "specific_focus": "Internal Motivation & Self-Prompting"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Internal Motivation & Self-Prompting",
+        "intervention_type": "Initiation cues to facilitate bathing skill performance",
+        "goal": "self-prompting techniques",
+        "deficit": "Decreased motivation and poor habit formation",
+        "assists": [],
+        "cues": [
+          {
+            "type": "verbal",
+            "kind": "coaching"
+          },
+          {
+            "type": "demonstration",
+            "purpose": "self-prompting"
+          }
+        ],
+        "progress": "Patient's ability to initiate the routine improved, requiring only a demonstration by session end",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__instruction_in_use_of_assistive_devices_to_facilitate_safety_during_bathing__grab_bar_and_shower_chair_use",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Instruction in use of assistive devices to facilitate safety during bathing",
+        "specific_focus": "Grab Bar & Shower Chair Use"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Grab Bar & Shower Chair Use",
+        "intervention_type": "Instruction in use of assistive devices to facilitate safety during bathing",
+        "goal": "proper positioning and utilization",
+        "deficit": "Decreased balance confidence and fall risk",
+        "assists": [],
+        "cues": [
+          {
+            "level": "min",
+            "type": "verbal",
+            "kind": "cue"
+          },
+          {
+            "type": "demonstration",
+            "purpose": "proper positioning"
+          }
+        ],
+        "progress": "Patient's ability to use devices improved, requiring only min verbal cues",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__instruction_in_use_of_assistive_devices_to_facilitate_safety_during_bathing__hand_held_shower_and_long_handled_tools",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Instruction in use of assistive devices to facilitate safety during bathing",
+        "specific_focus": "Hand-Held Shower & Long-Handled Tools"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Hand-Held Shower & Long-Handled Tools",
+        "intervention_type": "Instruction in use of assistive devices to facilitate safety during bathing",
+        "goal": "techniques for extended-reach implements",
+        "deficit": "Limited reach and decreased tool manipulation skills",
+        "assists": [],
+        "cues": [
+          {
+            "level": "mod",
+            "type": "tactile",
+            "kind": "guidance"
+          },
+          {
+            "type": "visual",
+            "kind": "demonstration"
+          }
+        ],
+        "progress": "Patient's use of tools improved, requiring only visual demonstration",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__instruction_in_use_of_assistive_devices_to_facilitate_safety_during_bathing__device_maintenance_and_setup",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Instruction in use of assistive devices to facilitate safety during bathing",
+        "specific_focus": "Device Maintenance & Setup"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Device Maintenance & Setup",
+        "intervention_type": "Instruction in use of assistive devices to facilitate safety during bathing",
+        "goal": "device selection based on individual needs",
+        "deficit": "Decreased problem-solving and poor equipment awareness",
+        "assists": [],
+        "cues": [
+          {
+            "type": "verbal",
+            "kind": "instruction"
+          },
+          {
+            "type": "demonstration",
+            "purpose": "setup"
+          }
+        ],
+        "progress": "Patient's ability to set up equipment improved, requiring only verbal instruction",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__instruction_in_use_of_environmental_modifications_to_facilitate_safe_and_efficie__lighting_and_non_slip_surface_mods",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Instruction in use of environmental modifications to facilitate safe and efficient bathing performance",
+        "specific_focus": "Lighting & Non-Slip Surface Mods"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Lighting & Non-Slip Surface Mods",
+        "intervention_type": "Instruction in use of environmental modifications to facilitate safe and efficient bathing performance",
+        "goal": "bathroom layout organization for safety",
+        "deficit": "Decreased visual processing and poor hazard recognition",
+        "assists": [],
+        "cues": [
+          {
+            "type": "visual",
+            "kind": "demonstration"
+          },
+          {
+            "type": "verbal",
+            "kind": "education"
+          }
+        ],
+        "progress": "Patient's ability to complete modifications improved, requiring only verbal education",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__instruction_in_use_of_environmental_modifications_to_facilitate_safe_and_efficie__temp_control_and_supply_organization",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Instruction in use of environmental modifications to facilitate safe and efficient bathing performance",
+        "specific_focus": "Temp Control & Supply Organization"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Temp Control & Supply Organization",
+        "intervention_type": "Instruction in use of environmental modifications to facilitate safe and efficient bathing performance",
+        "goal": "environment assessment",
+        "deficit": "Decreased sensation and organizational deficits",
+        "assists": [],
+        "cues": [
+          {
+            "type": "verbal",
+            "kind": "instruction"
+          },
+          {
+            "type": "demonstration",
+            "purpose": "supply arrangement"
+          }
+        ],
+        "progress": "Patient's environmental setup skills improved, requiring only a demonstration",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__instruction_in_use_of_environmental_modifications_to_facilitate_safe_and_efficie__pathway_clearance_and_fixture_positioning",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Instruction in use of environmental modifications to facilitate safe and efficient bathing performance",
+        "specific_focus": "Pathway Clearance & Fixture Positioning"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Pathway Clearance & Fixture Positioning",
+        "intervention_type": "Instruction in use of environmental modifications to facilitate safe and efficient bathing performance",
+        "goal": "practical home modifications",
+        "deficit": "Mobility limitations and spatial awareness deficits",
+        "assists": [],
+        "cues": [
+          {
+            "level": "max",
+            "type": "verbal",
+            "kind": "guidance"
+          }
+        ],
+        "progress": "Patient's ability to modify pathways improved, requiring only max verbal guidance",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__safety_training_during_functional_mobility_during_bathing__navigating_wet_surfaces",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Safety training during functional mobility during bathing",
+        "specific_focus": "Navigating Wet Surfaces"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Navigating Wet Surfaces",
+        "intervention_type": "Safety training during functional mobility during bathing",
+        "goal": "proper footwear and stability maintenance",
+        "deficit": "Decreased balance confidence and fall history",
+        "assists": [
+          {
+            "level": "CGA",
+            "site": "generalized",
+            "action": "ambulation on wet floor",
+            "purpose": "ensure safety"
+          }
+        ],
+        "cues": [
+          {
+            "level": "frequent",
+            "type": "verbal",
+            "kind": "reminder"
+          }
+        ],
+        "progress": "Patient's ability to navigate wet surfaces improved, requiring only frequent verbal reminders",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__safety_training_during_functional_mobility_during_bathing__emergency_procedures_and_fall_recovery",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Safety training during functional mobility during bathing",
+        "specific_focus": "Emergency Procedures & Fall Recovery"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Emergency Procedures & Fall Recovery",
+        "intervention_type": "Safety training during functional mobility during bathing",
+        "goal": "hazard recognition and prevention",
+        "deficit": "Poor safety awareness and panic responses",
+        "assists": [],
+        "cues": [
+          {
+            "type": "verbal",
+            "kind": "rehearsal"
+          },
+          {
+            "type": "demonstration",
+            "purpose": null
+          }
+        ],
+        "progress": "Patient's knowledge of emergency procedures improved, requiring only verbal rehearsal",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__safety_training_during_functional_mobility_during_bathing__safe_positioning_throughout_bathing",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Safety training during functional mobility during bathing",
+        "specific_focus": "Safe Positioning Throughout Bathing"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Safe Positioning Throughout Bathing",
+        "intervention_type": "Safety training during functional mobility during bathing",
+        "goal": "balance and protective strategies",
+        "deficit": "Postural instability and coordination deficits",
+        "assists": [],
+        "cues": [
+          {
+            "level": "mod",
+            "type": "tactile",
+            "kind": "cue"
+          },
+          {
+            "type": "verbal",
+            "kind": "prompt"
+          }
+        ],
+        "progress": "Patient demonstrated safer positioning, requiring only verbal prompts by session end",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__safety_training_during_transitional_movements_in_bathing__shower_entry_and_exit_transitions",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Safety training during transitional movements in bathing",
+        "specific_focus": "Shower Entry & Exit Transitions"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Shower Entry & Exit Transitions",
+        "intervention_type": "Safety training during transitional movements in bathing",
+        "goal": "proper weight shifting and movement patterns",
+        "deficit": "Decreased transitional control and fall risk",
+        "assists": [
+          {
+            "level": "min physical assist",
+            "site": "BLE",
+            "action": "step-in/step-out transitions",
+            "purpose": "support safe weight shifting",
+            "percent": 25
+          }
+        ],
+        "cues": [
+          {
+            "type": "verbal",
+            "kind": "cue"
+          }
+        ],
+        "progress": "Patient's shower transitions became safer, requiring only verbal cues",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__safety_training_during_transitional_movements_in_bathing__hand_placement_during_transitions",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Safety training during transitional movements in bathing",
+        "specific_focus": "Hand Placement During Transitions"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Hand Placement During Transitions",
+        "intervention_type": "Safety training during transitional movements in bathing",
+        "goal": "assistive device utilization during transfers",
+        "deficit": "Decreased UE strength and poor spatial awareness",
+        "assists": [],
+        "cues": [
+          {
+            "level": "mod",
+            "type": "tactile",
+            "kind": "guidance"
+          },
+          {
+            "type": "demonstration",
+            "purpose": "device use"
+          }
+        ],
+        "progress": "Patient's transition safety improved, requiring only a demonstration",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__safety_training_during_transitional_movements_in_bathing__recognizing_high_risk_movements",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Safety training during transitional movements in bathing",
+        "specific_focus": "Recognizing High-Risk Movements"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Recognizing High-Risk Movements",
+        "intervention_type": "Safety training during transitional movements in bathing",
+        "goal": "protective strategies and environmental support",
+        "deficit": "Impaired judgment and risk awareness",
+        "assists": [],
+        "cues": [
+          {
+            "type": "verbal",
+            "kind": "education"
+          },
+          {
+            "type": "demonstration",
+            "purpose": "protective strategies"
+          }
+        ],
+        "progress": "Patient's hazard recognition improved, requiring only a demonstration",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__techniques_to_increase_processing_skills_to_facilitate_independence_in_bathing_p__attention_and_working_memory_strategies",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Techniques to increase processing skills to facilitate independence in bathing performance",
+        "specific_focus": "Attention & Working Memory Strategies"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Attention & Working Memory Strategies",
+        "intervention_type": "Techniques to increase processing skills to facilitate independence in bathing performance",
+        "goal": "systematic approaches to complex tasks",
+        "deficit": "Decreased attention span and working memory deficits",
+        "assists": [],
+        "cues": [
+          {
+            "type": "visual",
+            "kind": "cue"
+          }
+        ],
+        "progress": "Patient's cognitive task performance improved, requiring only visual cues",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__techniques_to_increase_processing_skills_to_facilitate_independence_in_bathing_p__problem_solving_for_unexpected_situations",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Techniques to increase processing skills to facilitate independence in bathing performance",
+        "specific_focus": "Problem-Solving for Unexpected Situations"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Problem-Solving for Unexpected Situations",
+        "intervention_type": "Techniques to increase processing skills to facilitate independence in bathing performance",
+        "goal": "cognitive flexibility and decision-making",
+        "deficit": "Rigid thinking and decreased cognitive flexibility",
+        "assists": [],
+        "cues": [
+          {
+            "level": "max",
+            "type": "verbal",
+            "kind": "guidance"
+          },
+          {
+            "type": "demonstration",
+            "purpose": "alternative approaches"
+          }
+        ],
+        "progress": "Patient's problem-solving skills improved, requiring only max verbal guidance",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "bathing_showering__techniques_to_increase_processing_skills_to_facilitate_independence_in_bathing_p__task_organization_and_environmental_awareness",
+      "source": {
+        "category": "BATHING/SHOWERING",
+        "intervention_type": "Techniques to increase processing skills to facilitate independence in bathing performance",
+        "specific_focus": "Task Organization & Environmental Awareness"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Bathing",
+        "activity_child": "Task Organization & Environmental Awareness",
+        "intervention_type": "Techniques to increase processing skills to facilitate independence in bathing performance",
+        "goal": "cognitive strategies for long-term independence",
+        "deficit": "Decreased organizational abilities and poor environmental scanning",
+        "assists": [],
+        "cues": [
+          {
+            "type": "visual",
+            "kind": "aid"
+          },
+          {
+            "type": "verbal",
+            "kind": "prompt"
+          }
+        ],
+        "progress": "Patient's ability to organize tasks improved, requiring only verbal prompts",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "dressing__analysis_of_movement__lb_hip_flexion_sock_donning",
+      "source": {
+        "category": "DRESSING",
+        "intervention_type": "Analysis of movement during dressing activities",
+        "specific_focus": "LB Dressing - Hip Flexion for Sock Donning"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Dressing",
+        "activity_child": "LB Dressing - Hip Flexion for Sock Donning",
+        "intervention_type": "Analysis of movement during dressing activities",
+        "goal": "hip flexion ROM and dynamic balance for reach to feet during sock donning",
+        "deficit": "Decreased hip flexion ROM and impaired dynamic sitting balance",
+        "assists": [
+          {
+            "level": "min physical assist",
+            "site": "trunk",
+            "action": "forward trunk flexion for sock donning",
+            "purpose": "maintain dynamic balance",
+            "percent": 25
+          }
+        ],
+        "cues": [
+          {
+            "level": "min",
+            "type": "verbal",
+            "kind": "cue",
+            "purpose": "proper body mechanics"
+          }
+        ],
+        "progress": "Patient progressed to completing sock donning with min verbal cues by session end",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "dressing__compensatory_techniques__one_handed_for_hemiparesis",
+      "source": {
+        "category": "DRESSING",
+        "intervention_type": "Compensatory techniques to describe, identify and demonstrate dressing tasks with adaptation",
+        "specific_focus": "One-Handed Dressing for Hemiparesis"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Dressing",
+        "activity_child": "One-Handed Dressing for Hemiparesis",
+        "intervention_type": "Compensatory techniques to describe, identify and demonstrate dressing tasks with adaptation",
+        "goal": "affected-limb-first donning sequence for shirt and pants",
+        "deficit": "Left hemiparesis and decreased UE function",
+        "assists": [
+          {
+            "level": "min physical assist",
+            "site": "LUE",
+            "action": "affected-limb-first sleeve donning",
+            "purpose": "compensate for hemiparesis",
+            "percent": 25
+          }
+        ],
+        "cues": [
+          {
+            "level": "mod",
+            "type": "verbal",
+            "kind": "cue",
+            "purpose": "affected-limb-first sequencing"
+          },
+          {
+            "type": "demonstration",
+            "purpose": "adaptive donning technique"
+          }
+        ],
+        "progress": "Patient demonstrated improved one-handed dressing, progressing to requiring only mod verbal cues",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "dressing__compensatory_training__seated_eob_pants_donning",
+      "source": {
+        "category": "DRESSING",
+        "intervention_type": "Compensatory training to increase independence with dressing",
+        "specific_focus": "Seated EOB Pants Donning"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Dressing",
+        "activity_child": "Seated EOB Pants Donning",
+        "intervention_type": "Compensatory training to increase independence with dressing",
+        "goal": "seated dressing technique to maximize safety and reduce fall risk",
+        "deficit": "Decreased standing balance and increased fall risk during dressing transitions",
+        "assists": [],
+        "cues": [
+          {
+            "level": "mod",
+            "type": "verbal",
+            "kind": "instruction",
+            "purpose": "step-by-step seated technique"
+          },
+          {
+            "type": "demonstration",
+            "purpose": "seated donning sequence"
+          }
+        ],
+        "progress": "Patient learned seated pants donning, progressing to requiring only mod verbal instruction",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "dressing__assistive_devices__sock_aid_and_reacher",
+      "source": {
+        "category": "DRESSING",
+        "intervention_type": "Instruction in use of assistive devices for dressing",
+        "specific_focus": "Sock Aid and Reacher Use"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Dressing",
+        "activity_child": "Sock Aid and Reacher Use",
+        "intervention_type": "Instruction in use of assistive devices for dressing",
+        "goal": "proper sock loading, sock aid pull-up technique, and reacher use for pants management",
+        "deficit": "Decreased hip flexion ROM and inability to reach to feet",
+        "assists": [],
+        "cues": [
+          {
+            "level": "max",
+            "type": "verbal",
+            "kind": "instruction",
+            "purpose": "device setup and orientation"
+          },
+          {
+            "type": "demonstration",
+            "purpose": "sock aid and reacher use"
+          }
+        ],
+        "progress": "Patient demonstrated independent sock aid use, requiring only verbal cues for initial setup",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "dressing__safety_training_mobility__sit_to_stand_pants_pull_up",
+      "source": {
+        "category": "DRESSING",
+        "intervention_type": "Safety training during functional mobility during dressing",
+        "specific_focus": "Sit-to-Stand for Pants Pull-Up"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Dressing",
+        "activity_child": "Sit-to-Stand for Pants Pull-Up",
+        "intervention_type": "Safety training during functional mobility during dressing",
+        "goal": "controlled sit-to-stand with bilateral grab bar use for pants management",
+        "deficit": "Decreased LE strength and fall risk during dressing transitions",
+        "assists": [
+          {
+            "level": "CGA",
+            "site": "BLE",
+            "action": "sit-to-stand for pants pull-up",
+            "purpose": "ensure safety"
+          }
+        ],
+        "cues": [
+          {
+            "level": "min",
+            "type": "verbal",
+            "kind": "cue",
+            "purpose": "grab bar use and weight shift"
+          }
+        ],
+        "progress": "Patient's sit-to-stand for dressing improved, requiring only CGA and min verbal cues",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    },
+    {
+      "preset_id": "dressing__energy_conservation__pacing_full_dressing_routine",
+      "source": {
+        "category": "DRESSING",
+        "intervention_type": "Energy conservation training during dressing",
+        "specific_focus": "Pacing for Full Dressing Routine"
+      },
+      "wizard_params": {
+        "cpt": "97535",
+        "activity_parent": "Dressing",
+        "activity_child": "Pacing for Full Dressing Routine",
+        "intervention_type": "Energy conservation training during dressing",
+        "goal": "planned rest breaks and seated positioning across UB and LB dressing sequence",
+        "deficit": "Decreased aerobic endurance and dyspnea on exertion",
+        "assists": [],
+        "cues": [
+          {
+            "level": "frequent",
+            "type": "verbal",
+            "kind": "reminder",
+            "purpose": "rest break timing"
+          },
+          {
+            "type": "visual",
+            "kind": "cue",
+            "purpose": "fatigue recognition"
+          }
+        ],
+        "progress": "Patient demonstrated improved pacing strategies, requiring only visual cues by session end",
+        "tolerance": null,
+        "plan": null,
+        "output_style": "activity_led",
+        "patient_subjective": null,
+        "pain": null,
+        "vitals": null,
+        "performance_observations": null,
+        "session_context": null,
+        "clinical_reasoning": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OT Note Builder — Final Build</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+
+<header class="app-header">
+  <h1>OT Note Builder <span class="version">Final Build · v0.8</span></h1>
+  <div class="subtitle">Pick three dropdowns, hit Apply, edit the note, copy. Refine only if you need to.</div>
+</header>
+
+<!-- PRIMARY PATH: PRESET PICKER -->
+<div class="card preset-card primary">
+  <div class="preset-row-big">
+    <div>
+      <div class="preset-label">Category</div>
+      <select id="preset-category"><option value="">— pick —</option></select>
+    </div>
+    <div>
+      <div class="preset-label">Intervention</div>
+      <select id="preset-intervention" disabled><option value="">—</option></select>
+    </div>
+    <div>
+      <div class="preset-label">Focus</div>
+      <select id="preset-focus" disabled><option value="">—</option></select>
+    </div>
+    <button id="apply-preset" class="btn primary" disabled>Apply →</button>
+  </div>
+</div>
+
+<!-- OUTPUT (editable) -->
+<div class="card output-card">
+  <textarea id="output" class="output-textarea" placeholder="Pick a preset above and hit Apply, then edit this text and copy."></textarea>
+  <div class="output-controls">
+    <div class="toggle-group">
+      <button id="style-activity" class="active">Activity-Led</button>
+      <button id="style-goal">Goal-Led</button>
+    </div>
+    <div>
+      <span id="copied" class="copied" style="display:none;">✓ copied</span>
+      <button class="btn" id="save-preset" title="Save current state as a custom preset">★ Save</button>
+      <button class="btn" id="clear-btn">Clear</button>
+      <button class="btn primary" id="copy-btn">Copy</button>
+    </div>
+  </div>
+</div>
+
+<!-- REFINE (collapsed by default) -->
+<div class="refine-toggle-row">
+  <button class="refine-toggle" id="refine-toggle" aria-expanded="false">
+    <span class="caret">▸</span> Refine parameters
+    <span class="refine-hint">(optional · tweak any field individually)</span>
+  </button>
+</div>
+
+<div class="card summary-card" id="refine-section" hidden>
+  <div class="summary-row" data-modal="cpt"><div class="summary-label">CPT</div><div class="summary-value" id="sv-cpt">—</div><div class="edit-icon">edit</div></div>
+  <div class="summary-row" data-modal="activity"><div class="summary-label">Activity</div><div class="summary-value" id="sv-activity">—</div><div class="edit-icon">edit</div></div>
+  <div class="summary-row" data-modal="goal"><div class="summary-label">Goal</div><div class="summary-value" id="sv-goal">—</div><div class="edit-icon">edit</div></div>
+  <div class="summary-row" data-modal="deficit"><div class="summary-label">Deficit</div><div class="summary-value" id="sv-deficit">—</div><div class="edit-icon">edit</div></div>
+  <div class="summary-row" data-modal="support"><div class="summary-label">Cues / Assists</div><div class="summary-value" id="sv-support">—</div><div class="edit-icon">edit</div></div>
+  <div class="summary-row" data-modal="progress"><div class="summary-label">Progress</div><div class="summary-value" id="sv-progress">—</div><div class="edit-icon">edit</div></div>
+  <div class="summary-row" data-modal="context"><div class="summary-label">Context</div><div class="summary-value" id="sv-context">—</div><div class="edit-icon">edit</div></div>
+</div>
+
+<footer>
+  <div>Edit the note directly in the output box · Cmd/Ctrl+Enter copies · Esc closes modals</div>
+</footer>
+
+</div>
+
+<!-- ===== MODALS ===== -->
+
+<div class="modal-backdrop" id="modal-cpt" hidden>
+  <div class="modal">
+    <header><h3>CPT Code</h3><button class="modal-close">×</button></header>
+    <div class="modal-body">
+      <div class="btn-grid">
+        <button data-cpt="97535" class="cpt-btn selected">97535 — Self-Care / Home Management</button>
+        <button class="cpt-btn" disabled>Other CPTs (manual only)</button>
+      </div>
+    </div>
+    <footer><div class="left"></div><div class="right"><button class="btn primary modal-done">Done</button></div></footer>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="modal-activity" hidden>
+  <div class="modal">
+    <header><h3>Activity</h3><button class="modal-close">×</button></header>
+    <div class="modal-body">
+      <div class="field">
+        <label>Parent category</label>
+        <div class="btn-grid three">
+          <button data-activity="Bathing" class="activity-btn">Bathing</button>
+          <button data-activity="Dressing" class="activity-btn">Dressing</button>
+          <button data-activity="Grooming" class="activity-btn">Grooming</button>
+          <button data-activity="Toileting" class="activity-btn">Toileting</button>
+          <button data-activity="Feeding" class="activity-btn">Feeding</button>
+          <button data-activity="Home Management" class="activity-btn">Home Management</button>
+        </div>
+      </div>
+      <div class="field">
+        <label>Specific focus (sub-activity)</label>
+        <select id="m-activity-child"><option value="">— pick —</option></select>
+        <div class="muted-note" id="activity-child-note"></div>
+      </div>
+    </div>
+    <footer><div class="left"></div><div class="right"><button class="btn primary modal-done">Done</button></div></footer>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="modal-goal" hidden>
+  <div class="modal">
+    <header><h3>Goal — Trained Content</h3><button class="modal-close">×</button></header>
+    <div class="modal-body">
+      <div class="field">
+        <label>What was trained (becomes "Trained in X")</label>
+        <select id="m-goal" size="10" style="height: 260px;"><option value="">—</option></select>
+      </div>
+    </div>
+    <footer><div class="left"></div><div class="right"><button class="btn primary modal-done">Done</button></div></footer>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="modal-deficit" hidden>
+  <div class="modal">
+    <header><h3>Deficit</h3><button class="modal-close">×</button></header>
+    <div class="modal-body">
+      <div class="field">
+        <label>Clinical reason for therapy</label>
+        <select id="m-deficit-select" size="12" style="height: 300px;"><option value="">—</option></select>
+      </div>
+    </div>
+    <footer><div class="left"></div><div class="right"><button class="btn primary modal-done">Done</button></div></footer>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="modal-support" hidden>
+  <div class="modal" style="max-width:660px;">
+    <header><h3>Cues &amp; Assists</h3><button class="modal-close">×</button></header>
+    <div class="modal-body">
+      <div class="field">
+        <label>Assists (physical assist levels — spelled out per SKILL.md)</label>
+        <div id="m-assist-list"></div>
+        <button class="add-dyn" id="m-add-assist">+ add assist</button>
+      </div>
+      <div class="field">
+        <label>Cues (verbal · visual · tactile · demonstration · environmental)</label>
+        <div id="m-cue-list"></div>
+        <button class="add-dyn" id="m-add-cue">+ add cue</button>
+      </div>
+    </div>
+    <footer><div class="left"><button class="btn small" id="m-support-clear">Clear all</button></div><div class="right"><button class="btn primary modal-done">Done</button></div></footer>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="modal-progress" hidden>
+  <div class="modal">
+    <header><h3>Progress — Outcome</h3><button class="modal-close">×</button></header>
+    <div class="modal-body">
+      <div class="field">
+        <label>How the patient responded (last sentence of the note)</label>
+        <select id="m-progress" size="10" style="height: 280px;"><option value="">—</option></select>
+      </div>
+    </div>
+    <footer><div class="left"></div><div class="right"><button class="btn primary modal-done">Done</button></div></footer>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="modal-context" hidden>
+  <div class="modal" style="max-width:600px;">
+    <header><h3>Session Context <span style="font-weight:400; font-size:11px; color:var(--muted)">· per-patient · not from presets</span></h3><button class="modal-close">×</button></header>
+    <div class="modal-body">
+      <div class="field">
+        <label>Patient subjective (pick a quote or leave blank)</label>
+        <div class="chips" id="m-subjective-chips"></div>
+      </div>
+      <div class="field">
+        <label>Pain</label>
+        <div class="row-2">
+          <select id="m-pain-location"><option value="">— location —</option></select>
+          <select id="m-pain-rating"><option value="">— 0–10 —</option></select>
+        </div>
+      </div>
+      <div class="field">
+        <label>Vitals — HR · O2% · BP</label>
+        <div class="row-3">
+          <select id="m-hr"><option value="">HR</option></select>
+          <select id="m-o2"><option value="">O2%</option></select>
+          <select id="m-bp"><option value="">BP</option></select>
+        </div>
+      </div>
+      <div class="field">
+        <label>Performance / clinical reasoning (pick all that apply)</label>
+        <div class="chips" id="m-reasoning-chips"></div>
+      </div>
+    </div>
+    <footer>
+      <div class="left"><button class="btn small" id="m-context-clear">Clear all</button></div>
+      <div class="right"><button class="btn primary modal-done">Done</button></div>
+    </footer>
+  </div>
+</div>
+
+<datalist id="action-suggest"></datalist>
+
+<!-- ===== SCRIPTS (order matters) ===== -->
+<script src="engine.js"></script>
+<script src="state.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
